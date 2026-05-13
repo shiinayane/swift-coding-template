@@ -2,19 +2,33 @@ import Testing
 @testable import CodingTemplate
 
 class SolutionTests {
-    @Test func given2DMatrix_whenDoingDFS_thenReturns2DList() {
+    @Test func test1() {
         let solution = Solution()
-
-        let result = solution.pacificAtlantic([[1,2,2,3,5],[3,2,3,4,4],[2,4,5,3,1],[6,7,1,4,5],[5,1,1,2,4]])
-
-        #expect(result == [[0,4],[1,3],[1,4],[2,2],[3,0],[3,1],[4,0]])
+        
+        let tree = makeTree([1,2,3,4,5])
+        
+        let result = solution.diameterOfBinaryTree(tree)
+        
+        #expect(result == 3)
     }
-
-    @Test func given2DMatrix_whenCountEqualsOne_thenReturnsOneIndex() {
+    
+    @Test func test2() {
         let solution = Solution()
-
-        let result = solution.pacificAtlantic([[1]])
-
-        #expect(result == [[0,0]])
+        
+        let tree = makeTree([1,2])
+        
+        let result = solution.diameterOfBinaryTree(tree)
+        
+        #expect(result == 1)
+    }
+    
+    @Test func test3() {
+        let solution = Solution()
+        
+        let tree = makeTree([4,-7,-3,nil,nil,-9,-3,9,-7,-4,nil,6,nil,-6,-6,nil,nil,0,6,5,nil,9,nil,nil,-1,-4,nil,nil,nil,-2])
+        
+        let result = solution.diameterOfBinaryTree(tree)
+        
+        #expect(result == 8)
     }
 }

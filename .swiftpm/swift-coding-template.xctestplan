@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "D959717A-0760-4C73-A37E-39E3A259BCA7",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:",
+      "identifier" : "CodingTemplate",
+      "name" : "CodingTemplate"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "CodingTemplateTests",
+        "name" : "CodingTemplateTests"
+      }
+    }
+  ],
+  "version" : 1
+}

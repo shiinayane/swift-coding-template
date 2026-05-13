@@ -1,6 +1,3 @@
-// Archived LeetCode example: 21. Merge Two Sorted Lists.
-// This file is historical reference. Keep the active problem in LeetCode/Solution.swift.
-
 class Solution21 {
     func mergeTwoLists(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
         let dummy = ListNode(0)

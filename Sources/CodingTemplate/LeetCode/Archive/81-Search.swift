@@ -1,6 +1,3 @@
-// Archived LeetCode example: 81. Search in Rotated Sorted Array II.
-// This file is historical reference. Keep the active problem in LeetCode/Solution.swift.
-
 class Solution81 {
     func search(_ nums: [Int], _ target: Int) -> Bool {
         var left = 0

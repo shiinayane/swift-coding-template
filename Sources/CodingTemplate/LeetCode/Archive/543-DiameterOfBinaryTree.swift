@@ -1,4 +1,4 @@
-class Solution {
+class Solution543 {
     var result = 0
     
     func diameterOfBinaryTree(_ root: TreeNode?) -> Int {
