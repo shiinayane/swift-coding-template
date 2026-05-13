@@ -1,4 +1,4 @@
-class Solution {
+class Solution417 {
     func pacificAtlantic(_ heights: [[Int]]) -> [[Int]] {
         let rows = heights.count
         let cols = heights[0].count
